@@ -3,7 +3,7 @@
 .nav.scrolled{box-shadow:0 4px 30px rgba(0,0,0,0.25)}
 .nav-inner{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;height:72px}
 .nav-logo{display:flex;align-items:center;gap:12px;text-decoration:none}
-.nav-logo span{font-size:22px;font-weight:800;color:#fff;letter-spacing:-0.5px}
+.nav-logo img{height:54px;width:auto;display:block}
 .nav-links{display:flex;align-items:center;gap:4px}
 .nav-links>a,.nav-links .dropdown>a{font-size:14px;font-weight:600;color:rgba(255,255,255,0.65);padding:10px 16px;border-radius:8px;transition:all .2s;text-decoration:none}
 .nav-links>a:hover,.nav-links .dropdown:hover>a{color:#fff;background:rgba(255,255,255,0.1)}
@@ -41,13 +41,14 @@
 .nav-mobile .mob-cta-outline{background:transparent;border:2px solid rgba(255,255,255,0.2);color:#fff}
 .nav-mobile .mob-cta-outline:hover{border-color:#fff;color:#fff}
 @media(max-width:1024px){.nav-links{display:none}.nav-hamburger{display:flex}.nav-phone-icon{display:flex}.nav-inner{height:64px}.nav-mobile{top:64px}}
-@media(max-width:600px){.nav-right .nav-phone{display:none}.nav-cta{display:none}.nav-logo span{font-size:22px;letter-spacing:-0.5px}}
-@media(max-width:400px){.nav-logo span{font-size:20px}}
+@media(max-width:1024px){.nav-logo img{height:46px}}
+@media(max-width:600px){.nav-right .nav-phone{display:none}.nav-cta{display:none}.nav-logo img{height:44px}}
+@media(max-width:400px){.nav-logo img{height:40px}}
 </style>
 <nav class="nav" id="nav">
     <div class="nav-inner">
         <a href="index.html" class="nav-logo">
-            <span>Eagle Appliance Repair</span>
+            <img src="images/logo.png" alt="Eagle Appliance Repair">
         </a>
         <div class="nav-links">
             <div class="dropdown">
