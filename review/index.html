@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Leave Us a Review | Eagle Appliance Repair</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiNlNjVlMTIiLz48dGV4dCB4PSIzMiIgeT0iNDIiIGZvbnQtZmFtaWx5PSJBcmlhbCxzYW5zLXNlcmlmIiBmb250LXNpemU9IjI4IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiPkVBPC90ZXh0Pjwvc3ZnPg==">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Plus Jakarta Sans',sans-serif;background:#0a0a12;color:#fff;min-height:100vh}
+.review-hero{background:linear-gradient(135deg,#073b99,#e65e12);padding:100px 24px 50px;text-align:center}
+.review-hero h1{font-size:42px;font-weight:900;letter-spacing:-1px;margin-bottom:8px}
+.review-hero p{font-size:16px;color:rgba(255,255,255,0.7)}
+.review-body{max-width:600px;margin:0 auto;padding:60px 24px 160px;text-align:center}
+.stars-wrap{display:flex;justify-content:center;gap:12px;margin:40px 0 24px}
+.star-btn{width:72px;height:72px;border-radius:16px;border:2px solid rgba(255,255,255,0.1);background:rgba(255,255,255,0.04);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;flex-direction:column;gap:4px}
+.star-btn:hover{border-color:#e65e12;background:rgba(255,255,255,0.08);transform:translateY(-2px)}
+.star-btn svg{width:32px;height:32px;fill:#facc15}
+.star-btn span{font-size:11px;font-weight:700;color:rgba(255,255,255,0.5)}
+.star-label{font-size:15px;color:rgba(255,255,255,0.4);margin-bottom:40px}
+#feedbackForm{display:none;text-align:left;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);border-radius:16px;padding:36px 28px;margin-top:20px}
+#feedbackForm h2{font-size:20px;font-weight:800;margin-bottom:8px;color:#fff}
+#feedbackForm p{font-size:14px;color:rgba(255,255,255,0.5);margin-bottom:24px;line-height:1.6}
+#feedbackForm label{font-size:13px;font-weight:600;color:rgba(255,255,255,0.6);display:block;margin-bottom:6px}
+#feedbackForm input,#feedbackForm textarea{width:100%;padding:14px 16px;border-radius:10px;border:1px solid rgba(255,255,255,0.1);background:rgba(255,255,255,0.06);color:#fff;font-family:inherit;font-size:14px;margin-bottom:16px;outline:none;transition:border .2s}
+#feedbackForm input:focus,#feedbackForm textarea:focus{border-color:#e65e12}
+#feedbackForm textarea{min-height:120px;resize:vertical}
+#feedbackForm button{width:100%;padding:16px;background:#e65e12;color:#fff;border:none;border-radius:10px;font-size:15px;font-weight:700;cursor:pointer;transition:all .2s}
+#feedbackForm button:hover{opacity:0.9;transform:translateY(-1px)}
+#thankYou{display:none;text-align:center;padding:48px 20px}
+#thankYou h2{font-size:24px;font-weight:800;margin-bottom:12px}
+#thankYou p{font-size:15px;color:rgba(255,255,255,0.5)}
+@media(max-width:600px){.review-hero h1{font-size:28px}.review-hero{padding:80px 16px 36px}.star-btn{width:56px;height:56px;border-radius:12px}.star-btn svg{width:24px;height:24px}.stars-wrap{gap:8px}}
+</style>
+</head>
+<body>
+<div id="site-nav"></div>
+<script>(function(){var d='../';fetch(d+'nav.html').then(function(r){return r.text()}).then(function(h){var el=document.getElementById('site-nav');el.innerHTML=h;if(d){el.querySelectorAll('a[href]').forEach(function(a){var hr=a.getAttribute('href');if(hr&&!hr.startsWith('#')&&!hr.startsWith('http')&&!hr.startsWith('tel:')&&!hr.startsWith('mailto:'))a.setAttribute('href',d+hr);});}var tmp=document.createElement('div');tmp.innerHTML=h;tmp.querySelectorAll('script').forEach(function(os){var ns=document.createElement('script');ns.textContent=os.textContent;document.body.appendChild(ns);});}).catch(function(){});}());</script>
+<div class="review-hero"><h1>Give Us a Review!</h1><p>We appreciate your feedback</p></div>
+<div class="review-body" id="reviewBody">
+<p style="font-size:18px;font-weight:700;margin-bottom:4px">How would you rate us?</p>
+<p class="star-label">Select your rating below</p>
+<div class="stars-wrap">
+<button class="star-btn" onclick="selectRating(5)" style="border-color:rgba(250,204,21,0.3);background:rgba(250,204,21,0.08)"><svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><span>5 ★</span></button>
+<button class="star-btn" onclick="selectRating(4)"><svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><span>4</span></button>
+<button class="star-btn" onclick="selectRating(3)"><svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><span>3</span></button>
+<button class="star-btn" onclick="selectRating(2)"><svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><span>2</span></button>
+<button class="star-btn" onclick="selectRating(1)"><svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg><span>1</span></button>
+</div>
+<div id="feedbackForm">
+<h2>Sorry to hear that!</h2>
+<p>Please provide us with your feedback and we'll do our best to improve.</p>
+<label>Name <span style="color:#e65e12">*</span></label><input type="text" id="fbName" placeholder="Your name" required>
+<label>Email <span style="color:#e65e12">*</span></label><input type="email" id="fbEmail" placeholder="your@email.com" required>
+<label>Your Feedback</label><textarea id="fbText" placeholder="Please let us know what we can do to improve..."></textarea>
+<button onclick="submitFeedback()">Submit Feedback</button>
+</div>
+<div id="thankYou">
+<h2>Thank you for your feedback!</h2>
+<p>We appreciate you taking the time to help us improve. We take all feedback seriously and will work to address your concerns.</p>
+</div>
+</div>
+<div id="site-footer"></div>
+<script>(function(){var d='../';fetch(d+'footer.html').then(function(r){return r.text()}).then(function(h){var el=document.getElementById('site-footer');el.innerHTML=h;if(d){el.querySelectorAll('a[href]').forEach(function(a){var hr=a.getAttribute('href');if(hr&&!hr.startsWith('#')&&!hr.startsWith('http')&&!hr.startsWith('tel:')&&!hr.startsWith('mailto:'))a.setAttribute('href',d+hr);});}}).catch(function(){});}());</script>
+<script>
+function selectRating(stars){
+  if(stars===5){window.location.href='https://g.page/r/Ce9gphUp4so7EAE/review';return;}
+  document.querySelector('.stars-wrap').style.display='none';
+  document.querySelector('.star-label').style.display='none';
+  document.querySelector('#reviewBody > p').style.display='none';
+  document.getElementById('feedbackForm').style.display='block';
+}
+function submitFeedback(){
+  document.getElementById('feedbackForm').style.display='none';
+  document.getElementById('thankYou').style.display='block';
+}
+</script>
+</body></html>

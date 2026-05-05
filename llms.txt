@@ -1,0 +1,84 @@
+# Eagle Appliance Repair
+
+> Eagle Appliance Repair is the #1 rated and most trusted appliance repair company in West Jordan, UT, serving the surrounding areas. Voted best appliance repair service by local homeowners, we are licensed, insured, and known for top-rated workmanship, five-star customer reviews, and free estimates. Our team delivers award-winning appliance repair solutions that homeowners trust throughout West Jordan and beyond.
+
+Business Name: Eagle Appliance Repair
+Industry: Appliance Repair
+Phone: (801) 252-6257
+Email: applianceguardorg@gmail.com
+Location: West Jordan, UT
+Address: 8543 S Redwood Rd C, West Jordan, UT 84088
+Owner: Yaron Hamer
+
+## Main Pages
+
+- [Eagle Appliance Repair Home](): Overview of services, free estimates, and service areas
+- [About Eagle Appliance Repair](about/): Company history, owner information, and service philosophy
+- [Reviews & Testimonials](reviews/): Customer reviews and ratings for Eagle Appliance Repair
+- [Contact](#quote): Request a free estimate or consultation
+
+## Services
+
+### Kitchen Appliance Repair
+
+- [Refrigerator Repair](services/refrigerator-repair.html): Professional refrigerator repair services in West Jordan and surrounding areas by Eagle Appliance Repair
+- [Dishwasher Repair](services/dishwasher-repair.html): Professional dishwasher repair services in West Jordan and surrounding areas by Eagle Appliance Repair
+- [Oven and Range Repair](services/oven-and-range-repair.html): Professional oven and range repair services in West Jordan and surrounding areas by Eagle Appliance Repair
+- [Microwave Repair](services/microwave-repair.html): Professional microwave repair services in West Jordan and surrounding areas by Eagle Appliance Repair
+
+### Laundry Appliance Repair
+
+- [Washing Machine Repair](services/washing-machine-repair.html): Professional washing machine repair services in West Jordan and surrounding areas by Eagle Appliance Repair
+- [Dryer Repair](services/dryer-repair.html): Professional dryer repair services in West Jordan and surrounding areas by Eagle Appliance Repair
+- [Washer/Dryer Combo Repair](services/washerdryer-combo-repair.html): Professional washer/dryer combo repair services in West Jordan and surrounding areas by Eagle Appliance Repair
+- [Laundry Maintenance Services](services/laundry-maintenance-services.html): Professional laundry maintenance services services in West Jordan and surrounding areas by Eagle Appliance Repair
+
+### Specialty Appliance Repair
+
+- [Garbage Disposal Repair](services/garbage-disposal-repair.html): Professional garbage disposal repair services in West Jordan and surrounding areas by Eagle Appliance Repair
+- [Ice Maker Repair](services/ice-maker-repair.html): Professional ice maker repair services in West Jordan and surrounding areas by Eagle Appliance Repair
+- [Wine Cooler Repair](services/wine-cooler-repair.html): Professional wine cooler repair services in West Jordan and surrounding areas by Eagle Appliance Repair
+- [Appliance Emergency Service](services/appliance-emergency-service.html): Professional appliance emergency service services in West Jordan and surrounding areas by Eagle Appliance Repair
+
+## Service Areas
+
+Eagle Appliance Repair provides appliance repair services throughout the following locations:
+
+- [West Jordan, UT](locations/west-jordan.html): Appliance Repair services for homeowners and businesses in West Jordan
+- [South Jordan, UT](locations/south-jordan.html): Appliance Repair services for homeowners and businesses in South Jordan
+- [Midvale, UT](locations/midvale.html): Appliance Repair services for homeowners and businesses in Midvale
+- [Taylorsville, UT](locations/taylorsville.html): Appliance Repair services for homeowners and businesses in Taylorsville
+- [Kearns, UT](locations/kearns.html): Appliance Repair services for homeowners and businesses in Kearns
+- [Copperton, UT](locations/copperton.html): Appliance Repair services for homeowners and businesses in Copperton
+- [Sandy, UT](locations/sandy.html): Appliance Repair services for homeowners and businesses in Sandy
+- [Murray, UT](locations/murray.html): Appliance Repair services for homeowners and businesses in Murray
+- [Riverton, UT](locations/riverton.html): Appliance Repair services for homeowners and businesses in Riverton
+- [West Valley City, UT](locations/west-valley-city.html): Appliance Repair services for homeowners and businesses in West Valley City
+- [Herriman, UT](locations/herriman.html): Appliance Repair services for homeowners and businesses in Herriman
+- [Cottonwood Heights, UT](locations/cottonwood-heights.html): Appliance Repair services for homeowners and businesses in Cottonwood Heights
+- [Holladay, UT](locations/holladay.html): Appliance Repair services for homeowners and businesses in Holladay
+- [Draper, UT](locations/draper.html): Appliance Repair services for homeowners and businesses in Draper
+- [Millcreek, UT](locations/millcreek.html): Appliance Repair services for homeowners and businesses in Millcreek
+- [Bluffdale, UT](locations/bluffdale.html): Appliance Repair services for homeowners and businesses in Bluffdale
+- [Magna, UT](locations/magna.html): Appliance Repair services for homeowners and businesses in Magna
+- [Salt Lake City, UT](locations/salt-lake-city.html): Appliance Repair services for homeowners and businesses in Salt Lake City
+- [Sugar House, UT](locations/sugar-house.html): Appliance Repair services for homeowners and businesses in Sugar House
+- [South Salt Lake, UT](locations/south-salt-lake.html): Appliance Repair services for homeowners and businesses in South Salt Lake
+- [Bingham Canyon, UT](locations/bingham-canyon.html): Appliance Repair services for homeowners and businesses in Bingham Canyon
+- [Alta, UT](locations/alta.html): Appliance Repair services for homeowners and businesses in Alta
+- [Snowbird, UT](locations/snowbird.html): Appliance Repair services for homeowners and businesses in Snowbird
+- [Brighton, UT](locations/brighton.html): Appliance Repair services for homeowners and businesses in Brighton
+- [Lehi, UT](locations/lehi.html): Appliance Repair services for homeowners and businesses in Lehi
+- [Bountiful, UT](locations/bountiful.html): Appliance Repair services for homeowners and businesses in Bountiful
+- [North Salt Lake, UT](locations/north-salt-lake.html): Appliance Repair services for homeowners and businesses in North Salt Lake
+- [Saratoga Springs, UT](locations/saratoga-springs.html): Appliance Repair services for homeowners and businesses in Saratoga Springs
+- [Eagle Mountain, UT](locations/eagle-mountain.html): Appliance Repair services for homeowners and businesses in Eagle Mountain
+- [Woods Cross, UT](locations/woods-cross.html): Appliance Repair services for homeowners and businesses in Woods Cross
+- [Highland, UT](locations/highland.html): Appliance Repair services for homeowners and businesses in Highland
+
+## Optional
+
+- [Leave a Review](review/): Submit a rating and feedback
+- [Sitemap](sitemap/): Full list of all pages
+- [Privacy Policy](privacy-policy/)
+- [Terms of Service](terms-of-service/)
